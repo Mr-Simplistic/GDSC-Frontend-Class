@@ -29,7 +29,7 @@ body{
     animation: spin 1s ease forwards;
 }
 
-.light-mode {
+.light{
     --Bg:rgb(255, 255, 255); 
     --bg2:rgb(255, 255, 255);
     --bordercolor:rgb(0, 0, 0);
