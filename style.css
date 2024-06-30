@@ -93,6 +93,9 @@ button{
 button:hover {
     background: linear-gradient(135deg,rgba(44, 83, 100, 0.815) 0%,rgba(32, 58, 67, 0.815) 50%,rgb(15,32,39,0.815) 100%);    
 }
+.fa-sun:hover{
+    color:rgb(84, 130, 150);
+}
 .fa-arrow-right{
     font-size: 15px;
     margin-left:7px;
