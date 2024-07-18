@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: clamp(0.5rem, 2.5vw, 1rem);
+}
+.header{
+    background-color: rgb(10, 92, 139);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#hero{
+    width: 100%;
+}
+.body-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 10%;
+    padding: 100px 0;
+}
+
+.list-puppies{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height:auto;
+    gap: 15px;
+    width: 100%;
+    img{
+        width: 33%;
+    }
+
+}
+.missing-puppy{
+    background-color: rgb(214, 64, 64);
+    width: 33%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(0.5rem, 3vw, 50px);
+
+}
+.more-puppies{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    img{
+        width: 47%;
+    }
+}
+.footer{
+    background-color: rgb(10, 92, 139);
+    color: white;
+    text-align: center;
+}
+h1{
+    padding: 50px;
+}
