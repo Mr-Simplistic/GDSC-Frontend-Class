@@ -1,3 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.open-sans-full{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.laila-bold {
+    font-family: "Laila", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
 body{
-    background-color: black;
+    font-family: "Open Sans", sans-serif;
+}
+:root{
+    --primary-color:#00A651;
+    --primary-shade:#005F15;
+    --gray:#666666;
+    --transition: all 0.3s ease-in-out;
+}
+.fitsum{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.81) 0%, rgba(72, 72, 72, 0) 31.25%, rgba(158, 158, 158, 0) 90.6%, #FFFFFF), url("assets/hero.png");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    ul{
+        display: flex;
+        gap: 60px ;
+    }
+    li{
+        list-style: none;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 27.24px;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+.fitsum h2{
+    font-family:"Laila", serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24.6px;
+        text-align: center;
+        cursor: pointer;
+}
+.fitsum .user{
+    display: flex;
+    gap:20px;
+
+}
+.fitsum .user i{
+    cursor: pointer;
+    font-size: 25px;
+}
+.icon-color{
+    color: #FF7A00;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 779px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    h1{
+        font-size: 75px;
+        font-weight: 800;
+        line-height: 102.14px;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 21.79px;
+        width: 568px;
+        margin: 50px 0 30px;
+    }
+    button {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32.68px;
+        height: 60px;
+        border-radius: 10px;
+        width: 214px;
+        background-color: var(--primary-color);
+        border: none;
+        color: white;
+        cursor: pointer;
+        transition: var(--transition);
+
+    }
+    button:hover {
+        background-color: var(--primary-shade);
+    }
+}
+
+/* Hero section end  */
+
+.betelhem{
+    height: 100vh;
+    width: 100%;
 }
