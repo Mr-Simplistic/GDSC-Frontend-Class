@@ -33,45 +33,50 @@ body{
     height: 100vh;
     width: 100%;
     color: white;
-}
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 100px;
-    ul{
+
+    header{
         display: flex;
-        gap: 60px ;
+        align-items: center;
+        justify-content: space-around;
+        height: 100px;
+        ul{
+            display: flex;
+            gap: 60px ;
+        }
+        li{
+            list-style: none;
+            font-size: 17px;
+            font-weight: 600;
+            line-height: 27.24px;
+            text-align: center;
+            cursor: pointer;
+        }
     }
-    li{
-        list-style: none;
-        font-size: 17px;
-        font-weight: 600;
-        line-height: 27.24px;
-        text-align: center;
-        cursor: pointer;
-    }
-}
-.fitsum h2{
-    font-family:"Laila", serif;
+
+    h2{
         font-size: 24px;
         font-weight: 700;
         line-height: 24.6px;
         text-align: center;
         cursor: pointer;
+        font-family:"Laila", serif;
 }
-.fitsum .user{
-    display: flex;
-    gap:20px;
+    .user{
+        gap:20px;
+        display: flex;
 
 }
-.fitsum .user i{
+.user i{
     cursor: pointer;
     font-size: 25px;
 }
 .icon-color{
     color: #FF7A00;
 }
+
+
+}
+
 .content{
     position: absolute;
     top: 50%;
