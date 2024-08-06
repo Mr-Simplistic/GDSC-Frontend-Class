@@ -38,14 +38,15 @@ body{
         display: flex;
         align-items: center;
         justify-content: space-around;
-        height: 100px;
+        height: 140px;
+        
         ul{
             display: flex;
             gap: 60px ;
         }
         li{
             list-style: none;
-            font-size: 17px;
+            font-size: 20px;
             font-weight: 600;
             line-height: 27.24px;
             text-align: center;
@@ -68,7 +69,7 @@ body{
 }
 .user i{
     cursor: pointer;
-    font-size: 25px;
+    font-size: 30px;
 }
 .icon-color{
     color: #FF7A00;
@@ -76,7 +77,7 @@ body{
 
 
 }
-
+/* main heading part */
 .content{
     position: absolute;
     top: 50%;
@@ -125,3 +126,154 @@ body{
     height: 100vh;
     width: 100%;
 }
+
+/* bethelhem end */
+
+/* packages */
+.fitsum1{
+    background-color: #ECF1F0;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    height:auto;
+    h2{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 54.47px;
+        text-align: center;
+        margin: 50px 0px ;
+    }
+
+    /* list of packages */
+    .packages{
+        width: 100%;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;            
+            gap: 100px;
+
+            .package-li{
+                height: 60px;
+                border-radius: 10px;
+                width: 180px;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 27.24px;
+                cursor: pointer;
+                background-color:#666666;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color:white;
+                margin-bottom: 100px;
+            }
+            .package-li:hover{
+                transition: var(--transition);
+                background-color: #000000c4;
+            }
+            .li-active{
+                background-color: var(--primary-color);
+            }
+        }
+        }
+
+        /*cards container*/
+        .cards{
+            display: flex;
+            align-items: center;
+            gap:70px;
+            margin-bottom: 70px;
+
+            /* three cards*/
+            .card{
+                height: 489px;              
+                width: 434px;                
+                cursor: pointer;
+                .img1{
+                    background: url(assets/card-indonesia.png);
+                    background-size: cover;
+            
+                    width: 434px;
+                    height: 70%;
+                    border-radius: 15px 15px 0px 0px;
+                    background-color: pink;
+                    
+                }
+                .img2{
+                    background:url(assets/card-japan.png);
+                }
+                .img3{
+                    background:url(assets/card-mountains.png);
+                }
+
+                /* details section on the card  */
+                .details{
+                   
+                    width: 434px;
+                    background-color: white;
+                    border-radius: 0px 0px 15px 15px;
+                    height: 176px;
+
+                    .price{
+                        display: flex;
+                        justify-content: space-between;
+                        padding:15px 0px;
+                        font-size: 20px;
+                      
+
+                    }
+                    p{
+                        padding: 5px 20px;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 21.79px;
+
+
+
+                    }
+                    .location{
+                        display: flex;
+                        justify-content: space-between;
+                        padding:15px 0px;
+                        .loc{
+                          font-weight: 600;
+                          font-size: 20px;
+                        }
+                        .p-uncerline{
+                        font-weight: 600;
+                        text-decoration: underline;
+                        }
+                    }
+       
+
+                }
+            }
+            /* card hover effect */
+            .card:hover{
+                transition: all 0.3s ease;
+                transform: scale(1.02);
+            }
+            
+    }
+    /* Discover more button */
+    button{
+        height: 70px;
+        border-radius: 10px;
+        width: 300px;
+        margin: 50px 0px ;
+        background-color: var(--primary-color);
+        border: none;
+        color: white;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32.68px;
+        cursor:pointer;
+    }
+    button:hover{
+        background-color: var(--primary-shade);
+        transition: var(--transition);
+    }
+}
+/* end of packages (.fitsum1) */
