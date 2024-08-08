@@ -1,15 +1,14 @@
 *{
-    padding: 0;
-    margin: 0;
+  margin: 0;
+  padding: 0;
 }
-
 .open-sans-full{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 .laila-bold {
     font-family: "Laila", serif;
@@ -18,7 +17,11 @@
   }
 body{
     font-family: "Open Sans", sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-shade);
 }
+
 :root{
     --primary-color:#00A651;
     --primary-shade:#005F15;
@@ -28,12 +31,12 @@ body{
 /* hero section  */
 .fitsum{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.81) 0%, rgba(72, 72, 72, 0) 31.25%, rgba(158, 158, 158, 0) 90.6%, #FFFFFF), url("assets/hero.png");
-    position: relative;
     background-repeat: no-repeat;
-    background-size: cover;
+    object-fit:cover;
     height: 100vh;
     width: 100%;
     color: white;
+    position: relative;
 
     header{
         display: flex;
@@ -91,9 +94,10 @@ body{
     flex-direction: column;
     
     h1{
-        font-size: 75px;
+        /* font-size: 75px; */
         font-weight: 800;
         line-height: 102.14px;
+        font-size: clamp(75px, 2vw + 1rem, 50px);
     }
     p{
         font-size: 16px;
@@ -993,3 +997,8 @@ body{
 }
 
 /* Aymen's section end  */
+
+
+
+/* media query */
+
