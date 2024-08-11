@@ -813,6 +813,8 @@ h3 {
 
 
 /* Aymen's section */
+.Aymen{
+  padding-left: 50px;}
 .book-next-trip {
     display: flex;
     align-items: flex-start;
