@@ -1,16 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+    <div class="wrapper">
+        <!-- home section -->
+        <div class="home">
+            <h1 class="sides">HOME</h1>
+            <div class="counter-display">
+                <h1 id="counter">0</h1>
+            </div>
+            
+                <div class="score-points">
+                    <div class="plus-points"  id="plus-one">
+                        <h5>+1</h5>
+                    </div>
+                    <div class="plus-points"  id="plus-two">
+                        <h5>+2</h5>
+                    </div>
+                    <div class="plus-points" id="plus-three">
+                        <h5 >+3</h5>
+                    </div>
+                </div>
+        </div>
 
+        <!-- guest section -->
+        <div class="guest">
+            <h1 class="sides" >GUEST</h1>
+            <div class="counter-display">
+                <h1 id="g-counter">0</h1>
+            </div>    
+            <div class="score-points">
+                <div class="plus-points"  id="g-plus-one">
+                    <h5>+1</h5>
+                </div>
+                <div class="plus-points"  id="g-plus-two">
+                    <h5>+2</h5>
+                </div>
+                <div class="plus-points" id="g-plus-three">
+                    <h5 >+3</h5>
+                </div>
+            </div>
+            
+        </div>
 
-
+        <button id="reset">Reset</button>
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
